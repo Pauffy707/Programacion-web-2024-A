@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Selectores por ID*/
+/*Todos los selectores se utilizan una sola vez*/
+
+#navegacion{
+    height: 50px;
+    background-color: gray;
+}
+
+#slider{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+
+#Servicios{
+    height: 120;
+    background-color: darkcyan;
+}
+
+#pie{
+    height: 120px;
+    background-color: forestgreen;
+}
+
+/*selector por clase*/
+/*Las clases se pueden reutilizar las veces que sean NECESARIAS*/
+
+.servicio1{
+    height: 100px;
+    width: 100px;
+    background-color: lawngreen;
+    display: inline-block; /*dsesplegar elemento en la misma linea*/
+    border-radius: 40%;
+}
+
+.servicio1 h5{
+    line-height: 100px;
+    color: white;
+
+}
+
+/*Selectores de atribut*/
+
+[title]{
+    background-color: darkslateblue;
+}
+
+[id="seleccion1"]{
+    background-color: aquamarine;
+    color: rgb(17, 37, 37);
+}
+
+[value=""]{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+[value="1"]{
+    background-color: rgb(204, 54, 192);
+    color: aliceblue;
+}
+
+.animales [value="2"]{
+    background-color: chocolate;
+}
+
+

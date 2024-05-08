@@ -1,0 +1,188 @@
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpoPagina{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.FondoLogo{
+    background-color: #f6f9f9;
+
+}
+
+.logoInicial{
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 0px;
+    display: block;
+
+}
+
+.header{
+    
+    background-image: url(../assets/img/bg-header.jpg);
+    height: 750px;
+    background-repeat: no-repeat; /*Para que no se repita la imagen*/
+    display: flex;/*Esto ajusta el contenido de acuerdo al tamaño de pantalla o elemento*/
+    align-items: center;/*Alinea de forma vertical*/
+    justify-content: center;/*Alinea de forma horizontal*/
+    background-size: cover;
+}
+
+.header-info{
+    width: 700px;
+    text-align: center;
+}
+
+.marca{
+    font-size: 108px;
+    color: white;
+    
+}
+
+.separador{
+    border-bottom: solid rgb(0, 208, 255);
+}
+
+.botonAccion{
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 208, 255);
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.simpleDisenio{
+    background-color: #f6f9f9;
+    padding: 100px;
+}
+
+.contenedorDisenioSimple{
+    max-width: 1100px;/*Es para*/
+    margin: auto;
+    text-align: center;
+}
+
+h3,h2{
+    font-size: 40px;
+    color: #383838;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, span{
+    color: #8e8e8e; 
+}
+
+.contenedorServicios{
+    width: 1100px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+}
+
+.cajaServicio{
+    width: 33.333%;/*el 33.333% de los 1100px del contenedor de servicios*/
+    padding: 0 20px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.cajaServicio img{
+    margin-bottom: 20px;
+}
+
+.cajaServicio h5{
+    color: #474747;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contenedorShowCase{
+    background-color: #f6f9f9;
+
+}
+
+.showcase{
+    padding: 100px 0px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.encabezadoShowCase{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.fila{
+    display: flex;
+}
+
+.caja-galeria{
+    width: 33.333%;
+}
+
+.stayWithUs{
+    background: url(../assets/img/bg-stay.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedorStay{
+    padding: 50px 0px;
+    width: 1100px;
+    margin: auto;
+}
+
+.encabezadoStayWithUs{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.encabezadoStayWithUs h2{
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.contacto{
+    max-width: 600px;
+    margin: auto;
+}
+.input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+    color: #8e8e8e;
+}
+
+.acciones{
+    display: flex;
+}
+
+.check{
+    width: 85%;
+    color: white;
+}
+
+.footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.footer span{
+    width: 80%;
+   
+}

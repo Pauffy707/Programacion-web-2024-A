@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 20px;
+
+}
+
+body{
+    border: 9px solid rgb(146, 75, 194);
+}
+
+/*Propiedades de texto*/
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 30px;/*agrega un eslito de margen. Identacion a la izquierda*/
+    text-transform: capitalize; /**/
+    white-space: pre-wrap; /*Este copia los espacios que le dimos a nuestro codigo*/
+    word-spacing: 5px; /*espaciado entre cada palabra*/
+    letter-spacing: 2mm;/*espacio entre letras*/
+    text-align: right;
+    text-decoration: overline;
+}

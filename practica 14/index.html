@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Dinamicas</title>
+
+</head>
+<body>
+
+    <button id="crearTabla" onclick="Crear()">Crear Tabla</button>
+    <h1>Tabla Dinamica</h1>
+    <input type="text" disable id="Nombre" placeholder="Escribir Nombre">
+    <input type="text" disable id="Apellido" placeholder="Escribir Apellido">
+    <input type="text" disable id="Telefono" placeholder="Escribir Teléfono">
+
+    <button disabled id="agregar" onclick="AgregarUsr()">Agregar usuario</button>
+
+    <button disabled id="limpiar" onclick="Limpiar()">Limpiar campos</button>
+
+    <div>
+        <table id="dinamicTable">
+
+        </table>
+    </div>
+
+</body>
+
+<script src="scripts/script.js"></script>
+</html>

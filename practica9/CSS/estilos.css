@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-size: 30px;
+    border: 1px solid blueviolet; /*grosor, tipo de linea, color*/ 
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px auto; /*en automatico centra la tabla*/ 
+
+}
+
+th, td{
+    border: 1px solid green; /*tambien css tiene la opcion de manipular cada una de las lienas*/
+    border-right: 1px solid palevioletred;
+    border-left:  1px dotted yellow;
+    border-bottom: 1px dashed rebeccapurple;
+}
+
+tbody tr:first-child{
+    background-color: mediumturquoise;
+    color: aliceblue;
+    font-family: cursive;
+
+}
+
+tbody tr:last-child{
+    background-color: rgb(172, 151, 252);
+    color: aliceblue;
+    font-family: cursive;
+
+}
+
+/*el mas util segun el profe*/
+tbody tr:nth-last-child(2n){ /*este establece reglas de acurdo a una funcion, en este caso, de arriba hacia abajo, ya que empezamos con el last child, y desde ahi cuenta de dos en dos numeros pares*/
+    background-color: rgb(248, 203, 121);
+    color: rgb(68, 47, 20);
+}
+
+colgroup col:nth-child(2n){ /*este va a contar de izquierda a derecha*/
+    background-color: hotpink;
+    
+}
+
+tbody tr:hover{ /*cuando pongas encima el cursor en las tablas, algo va a aparecer*/
+    background-color: rgb(0, 0, 0);
+    color: red;
+
+}
+
+input:enabled{
+    background-color: red;
+    color: aliceblue;
+}
+
+input:disabled{
+    background-color: cadetblue;
+}
+
+input:checked{
+    width: 30px;
+    height: 30px;
+}

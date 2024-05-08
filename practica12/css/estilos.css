@@ -1,0 +1,61 @@
+/*Adsolutas: No se reestrocturan. y conservan su tamaño y forma*/
+
+.pixeles{
+    margin: 30px;
+    height: 100px;
+    width: 707px;
+    background-color: darkolivegreen;
+}
+
+.inch{/*1 pulgada*/
+    margin: 1in;
+    height: 3in;
+    width: 3in;
+    background-color: rgb(71, 104, 117);
+}
+
+.cm{
+    margin: 1cm;
+    height: 3cm;
+    width: 10cm;
+    background-color: rgb(80, 36, 151);
+
+}
+
+/*Unidades Relativas: Se reestrutura de acuerdo a otro valor por ejemplo el tamaño de pantalla u otro elemento*/
+
+.elemPadre{
+    background-color: rgb(236, 194, 233);
+    color: aliceblue;
+    padding: 10px;
+    margin: 30px;
+    font-size: 2px;
+}
+
+.el1{
+    font-size: 10em;/* 5*10 = 50px*/
+
+}
+
+.el2{
+    font-size: 15em;/* 5*15 = 50px*/
+    
+}
+
+.el3{
+    font-size: 15ex;/*  5*15/2  */
+    
+}
+
+.elemPadre2{
+    margin: 30px;
+    background-color: lightsalmon;
+    height: 20vh; /*view high*/
+    width: 50vw;/*view width*/
+}
+
+.el4{
+    height: 80%; /*80% del 20% del padre*/
+    width: 20%;
+    background-color: black;
+}

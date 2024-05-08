@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body >
+    <form method="get">
+        <fieldset>
+            <legend>
+                Formulario de Datos Personales
+            </legend>
+            <label>Nombre: </label>
+            <input name="nombre" id="nombreid" type="text">
+            <label>Correo: </label>
+            <input name="email" id="email" type="email">
+            <label>Password</label>
+            <input name="pass" id="pass" type="password">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <!--Aqui es para seleccionar una unica opcion-->
+            <legend>
+                Seleccionar Animal:
+                
+            </legend>
+
+            <label>Tigre</label>
+            <input type="radio" name="animal" id="tigre" value="tigre">
+            <label>Pescado</label>
+            <input type="radio" name="animal" id="pescado" value="pescado">
+            <label>Lobo</label>
+            <input type="radio" name="animal" id="lobo" value="lobo">
+
+        </fieldset>
+
+        <fieldset> <!--Aqui es para seleccionar multiples opciones-->
+
+            <legend>Pasatiempos</legend>
+            <label>Tocar guitarra</label>
+            <input type="checkbox" name="pasatiempo1" id="guitarra" value="guitarra">
+            <label>Pintar</label>
+            <input type="checkbox" name="pasatiempo2" id="pintar" value="pintar">
+            <label>Ver series</label>
+            <input type="checkbox" name="pasatiempo3" id="series" value="series">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Rangos</legend>
+
+            <label>Rango de interes</label>
+            <!--Este es para poner una barra de rango, se puede modificar-->
+            <input type="range" name="rangoInteres" id="rango" min="0" max="100" value="0">
+            <!--Aqui es para poner una barra de color -->
+            <label>Rango de color</label>
+            <input type="color" name="rangoColor" id="rangoColor" >
+
+        </fieldset>
+
+        <fieldset>
+            <!--Este es para hacer un menu de opciones-->
+            <legend>Animales 2</legend>
+
+            <select name="animales" id="seleccionAnimales">
+                <option value="">Selecciona un animal</option>
+                <option value="1gato">Gato</option>
+                <option value="2perro">Perro</option>
+                <option value="3pato">Pato</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <!--Este es para crear un grupo de seleccionables-->
+            <legend>Lenguaje de programacion</legend>
+            <select name="lenguaje" id="lenguaje">
+                <option value="">Selecciona un lenguaje</option>
+               <optgroup label="Lenguajes FrontEnd">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+               </optgroup>
+
+               <optgroup label="Lenguajes Backend">
+                <option value="PHP">PHP</option>
+                <option value="Node">NodeJS</option>
+                <option value="C#">C#</option>
+               </optgroup>
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ciudades</legend>
+            <label>Busca una ciudad en Jalisco</label>
+            <input type="search" name="ciudad" list="ciudades">
+
+            <!--La lista-->
+            <datalist id="ciudades"> 
+                <option value="Guadalajara"></option>
+                <option value="Tlaquepaque"></option>
+                <option value="Tonala"></option>
+                
+            </datalist>
+
+            <br> <!--Esto es un salto de linea-->
+            <label>Barras de progreso</label>
+            <!--Para decir el progreso-->
+            <progress value="20" max="100"></progress>
+            <progress max="100"></progress>
+
+            <br>
+            <label>TextArea o area de texto</label>
+            <br>
+            <textarea name="textArea" id="textArea" cols="150" rows="10" maxlength="100">Este es un texto</textarea>
+            <br>
+            
+            <input type="text" name="placeholder1" id="placeholder1" placeholder="Escribe tu nombre">
+            
+            <!--Required sirve para que a fuerzas se ingrese informacion en ese campo-->
+            <input type="email" name="email2" id="email2" placeholder="Agregar correo:" required>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <input type="reset" value="Borrar">
+
+
+    </form>
+</body>
+</html>
